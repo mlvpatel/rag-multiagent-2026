@@ -1,8 +1,8 @@
 # RagFlowProMax
 
-**A multi agent enterprise RAG. A supervisor routes specialist agents and a verifier checks the answer. The 2026 rung of the RagFlow line.**
+**A multi agent enterprise RAG. A supervisor routes specialist agents and a verifier checks the answer. Part of the RagFlow line.**
 
-**Part of the RagFlow line, enterprise RAG built year by year. This repository is RagFlowProMax, Multi agent enterprise RAG, 2026.** See [the full line](#the-ragflow-line) below.
+**Part of the RagFlow line, a series of reference enterprise RAG implementations. This repository is RagFlowProMax, Multi agent enterprise RAG.** See [the full line](#the-ragflow-line) below.
 
 RagFlowProMax does not rely on a single chain or a single agent. A supervisor plans the work and routes the question to specialist worker agents, a synthesizer merges their findings, and a verifier checks the answer is grounded before it is returned. The document worker is the RagFlowProPlus self correcting RAG over pgvector, so the system is an agent of agents. It runs fully locally on Ollama, with the Claude 5 family as the frontier cloud option.
 
@@ -89,7 +89,7 @@ make test        # unit tests, no database or model needed
 
 ## The RagFlow line
 
-RagFlowProMax is the 2026 rung in a year by year line of enterprise RAG systems, each a faithful snapshot of the best production RAG of its year. The whole line is measured on the same golden set in the [rag-catalog benchmark](https://github.com/mlvpatel/rag-catalog).
+RagFlowProMax is one implementation in the RagFlow line, a series demonstrating distinct enterprise RAG retrieval strategies. The whole line is measured on the same golden set in the [rag-catalog benchmark](https://github.com/mlvpatel/rag-catalog).
 
 | Year | Repository | Generation |
 |---|---|---|
