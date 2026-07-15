@@ -5,7 +5,7 @@ import sys
 
 from src.core.config import settings
 
-logger = logging.getLogger("ragflowpro")
+logger = logging.getLogger("rag_modular")
 
 
 def configure_logging() -> None:

@@ -1,14 +1,14 @@
-# RagFlowProMax
+# rag-multiagent-2026
 
-**A multi agent enterprise RAG. A supervisor routes specialist agents and a verifier checks the answer. Part of the RagFlow line.**
+**A multi agent enterprise RAG. A supervisor routes specialist agents and a verifier checks the answer. Part of the RAG line.**
 
-**Part of the RagFlow line, a series of reference enterprise RAG implementations. This repository is RagFlowProMax, Multi agent enterprise RAG.** See [the full line](#the-ragflow-line) below.
+**Part of the RAG line, a series of reference enterprise RAG implementations. This repository is rag-multiagent-2026, Multi agent enterprise RAG.** See [the full line](#the-rag_naive-line) below.
 
-RagFlowProMax does not rely on a single chain or a single agent. A supervisor plans the work and routes the question to specialist worker agents, a synthesizer merges their findings, and a verifier checks the answer is grounded before it is returned. The document worker is the RagFlowProPlus self correcting RAG over pgvector, so the system is an agent of agents. It runs fully locally on Ollama, with the Claude 5 family as the frontier cloud option.
+rag-multiagent-2026 does not rely on a single chain or a single agent. A supervisor plans the work and routes the question to specialist worker agents, a synthesizer merges their findings, and a verifier checks the answer is grounded before it is returned. The document worker is the rag-agentic-2025 self correcting RAG over pgvector, so the system is an agent of agents. It runs fully locally on Ollama, with the Claude 5 family as the frontier cloud option.
 
-[![CI](https://github.com/mlvpatel/RagFlowProMax/actions/workflows/ci.yml/badge.svg)](https://github.com/mlvpatel/RagFlowProMax/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.11-blue) ![LangGraph](https://img.shields.io/badge/agents-LangGraph-blue) ![Postgres](https://img.shields.io/badge/Postgres-pgvector-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+[![CI](https://github.com/mlvpatel/rag-multiagent-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/mlvpatel/rag-multiagent-2026/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.11-blue) ![LangGraph](https://img.shields.io/badge/agents-LangGraph-blue) ![Postgres](https://img.shields.io/badge/Postgres-pgvector-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
-![RagFlowProMax routing specialist agents on a local model](assets/videos/ragflowpromax-demo.gif)
+![rag-multiagent-2026 routing specialist agents on a local model](assets/videos/rag_multiagent-demo.gif)
 
 The clip above is a live, unedited run on a local qwen2.5 model over pgvector. The expandable trace shows the supervisor route the question, the document agent answer, and the verifier check it. No paid keys were used.
 
@@ -17,7 +17,7 @@ The clip above is a live, unedited run on a local qwen2.5 model over pgvector. T
 | Agent | Role |
 |---|---|
 | Supervisor | Plans and routes the question to the right specialist agents, bounded so it always terminates |
-| Document agent | The RagFlowProPlus self correcting RAG over pgvector: retrieve, grade, rewrite, generate, self check |
+| Document agent | The rag-agentic-2025 self correcting RAG over pgvector: retrieve, grade, rewrite, generate, self check |
 | Web agent | Grounded web search, off by default, used only when the supervisor asks for it |
 | Synthesizer | Merges the specialist findings into one grounded answer with sources |
 | Verifier | Checks the answer is grounded in the findings before it is returned |
@@ -87,17 +87,17 @@ Load the bundled sample data with `make load-samples`, then ask a question and o
 make test        # unit tests, no database or model needed
 ```
 
-## The RagFlow line
+## The RAG line
 
-RagFlowProMax is one implementation in the RagFlow line, a series demonstrating distinct enterprise RAG retrieval strategies. The whole line is measured on the same golden set in the [rag-catalog benchmark](https://github.com/mlvpatel/rag-catalog).
+rag-multiagent-2026 is one implementation in the RAG line, a series demonstrating distinct enterprise RAG retrieval strategies.
 
 | Year | Repository | Generation |
 |---|---|---|
-| 2022 | [RagFlow](https://github.com/mlvpatel/RagFlow) | Naive RAG, single dense retrieval |
-| 2023 | [RagFlowPlus](https://github.com/mlvpatel/RagFlowPlus) | Advanced RAG, hybrid retrieval and reranking |
-| 2024 | [RagFlowPro](https://github.com/mlvpatel/RagFlowPro) | Modular production RAG, pgvector, streaming, evaluation |
-| 2025 | [RagFlowProPlus](https://github.com/mlvpatel/RagFlowProPlus) | Agentic RAG, self correcting with confidence grading |
-| 2026 | RagFlowProMax, this repo | Multi agent enterprise, supervisor and specialist agents |
+| 2022 | [rag-naive-2022](https://github.com/mlvpatel/rag-naive-2022) | Naive RAG, single dense retrieval |
+| 2023 | [rag-advanced-2023](https://github.com/mlvpatel/rag-advanced-2023) | Advanced RAG, hybrid retrieval and reranking |
+| 2024 | [rag-modular-2023](https://github.com/mlvpatel/rag-modular-2023) | Modular production RAG, pgvector, streaming, evaluation |
+| 2025 | [rag-agentic-2025](https://github.com/mlvpatel/rag-agentic-2025) | Agentic RAG, self correcting with confidence grading |
+| 2026 | rag-multiagent-2026, this repo | Multi agent enterprise, supervisor and specialist agents |
 
 ## Author
 

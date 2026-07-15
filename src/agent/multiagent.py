@@ -1,11 +1,11 @@
-"""Multi-agent orchestration for RagFlowProMax (supervisor pattern).
+"""Multi-agent orchestration for rag-multiagent-2026 (supervisor pattern).
 
 A supervisor routes the question to specialist worker agents, a synthesizer
 merges their findings, and a verifier checks the answer is grounded. Every
 agent's contribution is recorded in a trace, which is the observability spine
 from the enterprise design. The whole thing is bounded, so it always terminates.
 
-Keyless on Ollama. The document worker reuses the RagFlowProPlus self correcting
+Keyless on Ollama. The document worker reuses the rag-agentic-2025 self correcting
 RAG (so it is an agent of agents), and the web worker uses the grounded web tool.
 """
 
@@ -64,7 +64,7 @@ def run_multiagent(model: str, question: str, chat_history=None) -> dict:
 
     findings: Dict[str, Dict[str, Any]] = {}
 
-    # 2. Document worker: the RagFlowProPlus self correcting RAG over pgvector.
+    # 2. Document worker: the rag-agentic-2025 self correcting RAG over pgvector.
     doc = run_document_agent(model, question, chat_history)
     findings["document"] = {
         "answer": doc.get("answer", ""),

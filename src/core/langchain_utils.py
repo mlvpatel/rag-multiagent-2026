@@ -1,5 +1,5 @@
 """
-RAG chain for RagFlowPro, built directly on langchain-core (LCEL).
+RAG chain for rag-modular-2023, built directly on langchain-core (LCEL).
 
 Building on langchain-core rather than the legacy langchain.chains helpers
 keeps this stable across langchain major versions. The flow is:
@@ -32,7 +32,7 @@ CONTEXTUALIZE_SYSTEM = (
 )
 
 QA_SYSTEM = (
-    "You are a helpful assistant for RagFlowPro. Use the following retrieved "
+    "You are a helpful assistant for rag-modular-2023. Use the following retrieved "
     "context to answer the user question accurately and concisely. If the "
     "context does not contain enough information, say so rather than guessing.\n\n"
     "Context:\n{context}"

@@ -1,4 +1,4 @@
-"""Retrieval metrics for RagFlowPro evaluation.
+"""Retrieval metrics for rag-modular-2023 evaluation.
 
 All functions operate on a ranked list of retrieved item ids (in rank order,
 best first) and a set of relevant item ids. Pure and side effect free, so they

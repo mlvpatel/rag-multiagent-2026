@@ -1,9 +1,9 @@
 """
-Database utilities for RagFlowPro, conversation memory and document
+Database utilities for rag-modular-2023, conversation memory and document
 records on Postgres via psycopg 3.
 
-This module preserves the public interface of the RAGFlow SQLite
-baseline (src/api/db_utils.py in the RAGFlow repo) while swapping the
+This module preserves the public interface of the rag-multiagent-2026 SQLite
+baseline (src/api/db_utils.py in the rag-multiagent-2026 repo) while swapping the
 storage engine to Postgres, the same instance used for pgvector.
 
 Design notes:

@@ -16,7 +16,7 @@ MODELS = [
 
 def display_sidebar() -> None:
     with st.sidebar:
-        st.header("RagFlowProMax")
+        st.header("rag-multiagent-2026")
         st.session_state["model"] = st.selectbox("Model", MODELS, index=0)
 
         st.subheader("Documents")

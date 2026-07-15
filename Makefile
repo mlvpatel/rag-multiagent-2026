@@ -1,4 +1,4 @@
-# RagFlowPro developer commands.
+# rag-modular-2023 developer commands.
 # Bring up the data services first, then build and test against them.
 
 COMPOSE = docker compose -f docker/docker-compose.yml

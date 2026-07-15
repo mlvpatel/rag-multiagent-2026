@@ -1,4 +1,4 @@
-"""Graph state for the RagFlowProPlus agentic RAG.
+"""Graph state for the rag-agentic-2025 agentic RAG.
 
 The state is the execution-tracking board from the planning diagram: it carries
 the question, the current search query, the retrieved documents, the confidence

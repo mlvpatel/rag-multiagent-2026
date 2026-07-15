@@ -1,6 +1,6 @@
 # Sample data
 
-Three sample documents so anyone can run RagFlowPro and judge its performance without supplying their own files. Two are small hand written business documents, and one is a real public SEC filing, so you can see it work on both clean text and a dense real world document.
+Three sample documents so anyone can run rag-modular-2023 and judge its performance without supplying their own files. Two are small hand written business documents, and one is a real public SEC filing, so you can see it work on both clean text and a dense real world document.
 
 | File | Type | Use case it demonstrates |
 |---|---|---|

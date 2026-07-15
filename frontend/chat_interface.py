@@ -1,4 +1,4 @@
-"""Chat interface for the RagFlowProMax Streamlit app.
+"""Chat interface for the rag-multiagent-2026 Streamlit app.
 
 Shows the answer plus an expandable trace of which agents ran (supervisor,
 document, web, synthesizer, verifier), so the multi-agent coordination is

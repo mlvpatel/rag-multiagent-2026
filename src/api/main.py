@@ -1,4 +1,4 @@
-"""RagFlowProPlus API: agentic RAG chat plus document management.
+"""rag-agentic-2025 API: agentic RAG chat plus document management.
 
 The chat endpoint runs the self-correcting agent and returns the answer along
 with its reasoning trace, so callers and the UI can see the retrieve, grade,
@@ -61,7 +61,7 @@ async def lifespan(app: FastAPI):
     yield
 
 
-app = FastAPI(title="RagFlowProMax API", version="1.0.0", lifespan=lifespan)
+app = FastAPI(title="rag-multiagent-2026 API", version="1.0.0", lifespan=lifespan)
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 app.add_middleware(

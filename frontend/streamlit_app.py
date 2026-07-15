@@ -1,4 +1,4 @@
-"""RagFlowPro Streamlit application entry point."""
+"""rag-modular-2023 Streamlit application entry point."""
 
 import os
 import sys
@@ -12,8 +12,8 @@ from frontend.sidebar import display_sidebar  # noqa: E402
 
 
 def main() -> None:
-    st.set_page_config(page_title="RagFlowProMax", layout="wide")
-    st.title("RagFlowProMax")
+    st.set_page_config(page_title="rag-multiagent-2026", layout="wide")
+    st.title("rag-multiagent-2026")
     st.caption(
         "Multi agent enterprise RAG, 2026. A supervisor routes specialist agents and a verifier checks the answer."
     )

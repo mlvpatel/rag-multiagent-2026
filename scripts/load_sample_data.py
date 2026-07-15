@@ -1,4 +1,4 @@
-"""Load the bundled sample documents into RagFlowPro.
+"""Load the bundled sample documents into rag-modular-2023.
 
 Run this after the stack is up so anyone can try the system on the included
 sample data. For a fully local, no cost run:
