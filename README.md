@@ -6,9 +6,7 @@ Part of the RAG line, a series of reference enterprise RAG implementations, one 
 
 [![CI](https://github.com/mlvpatel/rag-multiagent-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/mlvpatel/rag-multiagent-2026/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.11-blue) ![LangGraph](https://img.shields.io/badge/agents-LangGraph-blue) ![Postgres](https://img.shields.io/badge/Postgres-pgvector-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
-![rag-multiagent-2026 routing specialist agents on a local model](assets/videos/rag-multiagent-2026-demo.gif)
-
-The clip above is a live, unedited run on a local qwen2.5 model over pgvector. The expandable trace shows the supervisor route the question, the document agent answer, and the verifier check it. A full resolution screenshot is at [assets/screenshots/rag-multiagent-2026-ui.png](assets/screenshots/rag-multiagent-2026-ui.png). No paid keys were used.
+![RagChatBot banner](assets/banner.svg)
 
 ## Contents
 

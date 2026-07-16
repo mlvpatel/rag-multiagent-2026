@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="RagChatBot, Multi Agent RAG">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#082f49"/>
+      <stop offset="1" stop-color="#0c4a6e"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#7dd3fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="1197" height="357" rx="17" fill="none" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="3"/>
+
+  <!-- title block -->
+  <rect x="64" y="74" width="56" height="10" rx="5" fill="url(#ac)"/>
+  <text x="64" y="146" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#f8fafc">RagChatBot</text>
+  <text x="64" y="196" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#38bdf8">Multi Agent RAG</text>
+  <text x="64" y="232" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#cbd5e1">supervisor, specialists, verifier gate</text>
+  <rect x="64" y="258" width="217.5" height="34" rx="17" fill="#f8fafc" fill-opacity="0.08" stroke="#38bdf8" stroke-opacity="0.5"/>
+  <text x="172.75" y="281" font-family="ui-monospace, Menlo, monospace" font-size="17" fill="#7dd3fc" text-anchor="middle">rag-multiagent-2026</text>
+
+  <!-- year badge -->
+  <rect x="1066" y="34" width="70" height="32" rx="16" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8" stroke-opacity="0.55"/>
+  <text x="1101" y="56" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#7dd3fc" text-anchor="middle">2026</text>
+
+  <!-- motif -->
+  
+  <g fill="none" stroke-linecap="round">
+    <line x1="800" y1="120" x2="920" y2="80" stroke="#38bdf8" stroke-width="4"/>
+    <line x1="800" y1="120" x2="920" y2="176" stroke="#38bdf8" stroke-width="4"/>
+    <line x1="800" y1="120" x2="920" y2="264" stroke="#38bdf8" stroke-width="4" opacity="0.55"/>
+    <line x1="960" y1="80" x2="1060" y2="172" stroke="#7dd3fc" stroke-width="4"/>
+    <line x1="960" y1="176" x2="1060" y2="172" stroke="#7dd3fc" stroke-width="4"/>
+    <line x1="960" y1="264" x2="1060" y2="172" stroke="#7dd3fc" stroke-width="4" opacity="0.55"/>
+    <circle cx="790" cy="120" r="26" fill="#38bdf8" fill-opacity="0.2" stroke="#38bdf8" stroke-width="4"/>
+    <text x="790" y="126" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0" stroke="none" text-anchor="middle">S</text>
+    <rect x="912" y="62" width="80" height="34" rx="17" fill="#f8fafc" fill-opacity="0.08" stroke="#38bdf8" stroke-width="3"/>
+    <text x="952" y="84" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0" stroke="none" text-anchor="middle">docs</text>
+    <rect x="912" y="158" width="80" height="34" rx="17" fill="#f8fafc" fill-opacity="0.08" stroke="#38bdf8" stroke-width="3"/>
+    <text x="952" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0" stroke="none" text-anchor="middle">web</text>
+    <rect x="912" y="246" width="80" height="34" rx="17" fill="#f8fafc" fill-opacity="0.08" stroke="#38bdf8" stroke-width="3" opacity="0.7"/>
+    <text x="952" y="268" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0" stroke="none" text-anchor="middle">synth</text>
+    <circle cx="1085" cy="172" r="30" fill="url(#ac)"/>
+    <path d="M1071 172 L1081 183 L1101 159" stroke="#082f49" stroke-width="6"/>
+    <text x="1085" y="226" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#cbd5e1" stroke="none" text-anchor="middle">verified</text>
+  </g>
+
+  <!-- corner credit -->
+  <text x="1160" y="334" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#94a3b8" text-anchor="end">by <tspan fill="#7dd3fc">MlvPtL</tspan></text>
+</svg>
