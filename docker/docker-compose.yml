@@ -1,4 +1,4 @@
-# RagFlowProMax stack.
+# rag-multiagent-2026 stack.
 # Data services (postgres, redis) run standalone for local development and tests.
 # App services (api, worker, streamlit) build from the project Dockerfile.
 #
