@@ -32,7 +32,7 @@ def _count_chunks(file_id: int) -> int:
 
 def test_index_then_delete_round_trip(pg_available, monkeypatch):
     store = PGVector(
-        embeddings=DeterministicFakeEmbedding(size=settings.embedding_dims),
+        embeddings=DeterministicFakeEmbedding(size=768),
         collection_name=vs.COLLECTION_NAME,
         connection=vs._sqlalchemy_url(),
         use_jsonb=True,
